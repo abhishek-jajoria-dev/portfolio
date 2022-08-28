@@ -1,26 +1,40 @@
-import React  from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import {React , useEffect} from 'react';
+import AOS from 'aos';
+import { Route, Routes } from 'react-router-dom';
+import Header from './components/header';
+import Footer from './components/footer';
+import '../src/assets/font/font-awesome.css'
+import routes from './pages';
+import Page404 from './pages/404';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    useEffect(() => {
+        AOS.init({
+          duration : 2000
+        }); 
+      }, []);
+
+    return (
+        <>
+
+            <Header />
+
+            <Routes>
+
+                {
+                    routes.map((data,idx) => (
+                        <Route key={idx} path={data.path} element={data.component} exact />
+                    ))
+                }
+
+                <Route path='*' element={<Page404 />} />
+            </Routes>
+
+            <Footer />
+        </>
+    );
 }
 
 export default App;
