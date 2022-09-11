@@ -56,7 +56,7 @@ TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [
-            os.path.join(BASE_DIR, 'react/build'),
+            str(BASE_DIR / "react/build"),
         ],
         "APP_DIRS": True,
         "OPTIONS": {
@@ -79,7 +79,7 @@ WSGI_APPLICATION = "portfolio.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": str(BASE_DIR / "db.sqlite3"),
     }
 }
 
@@ -125,6 +125,5 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-STATICFILES_DIRS = [
-     os.path.join(BASE_DIR, 'react/build/static'),
-]
+STATICFILES_DIRS = [str(BASE_DIR / "react/build/static"),]
+

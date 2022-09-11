@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /react/node_modules
+/portfolio/settings.py
 
 # testing
 /coverage
