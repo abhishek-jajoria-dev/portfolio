@@ -15,8 +15,8 @@ function About(props) {
     const [dataBlock] = useState(
         {
             subtitle : 'About us',
-            title: 'What is cybox?',
-            desc : 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis. Id ac non arcu facilisi proin ultrices sed. Id accumsan quam viverra ante in id integer ut. Volutpat lobortis dolor etiam dis interdum tincidunt senectus.'
+            title: 'A little introduction about myself.',
+            desc : "Hello!. My name is Abhishek Jajoria. I enjoy creating things that live on the internet. My interest in web development started back in 2019.My main focus these days is building accessible, inclusive products and digital experiences at Upstatement for a variety of clients."
         }
     )
 
@@ -31,7 +31,7 @@ function About(props) {
                                 <h4 className="title">{dataBlock.title}</h4>
                             </div>
                             <p>{dataBlock.desc}</p>
-                                <Button title="get Nfts" path='/' />
+                                <Button title="See More" path='/about' />
                         </div>
                     </div>
                     <div className="col-xl-7 col-md-12">
