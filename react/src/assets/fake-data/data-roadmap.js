@@ -1,19 +1,19 @@
 const dataRoadmap = [
     {
         id: 1,
-        time: 'Q2 2022',
+        time: 'July 2022 present',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Ayuvya Ayurveda'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Ecommerce Website'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'For ayurvedic products'
             },
             {
-                text: 'Risus eu metus'
+                text: 'django, html, css & js'
             },
         ],
         positon: 'left',
@@ -21,19 +21,19 @@ const dataRoadmap = [
     },
     {
         id: 2,
-        time: 'Q1 2022',
+        time: 'May 2022',
         list: [
             {
-                text: 'Release website and logo'
+                text: 'IdealsNetworks'
             },
             {
-                text: 'Grow community'
+                text: 'News, Events, Trainings courses & investment platform'
             },
             {
-                text: 'Launch the project'
+                text: 'created dynamic sections and admin panel'
             },
             {
-                text: 'Social media setup'
+                text: 'Laravel, html, css, javascript'
             },
         ],
         positon: 'right',
@@ -41,156 +41,80 @@ const dataRoadmap = [
     },
     {
         id: 3,
-        time: 'Q4 2022',
+        time: 'April 2022',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Champ'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'online sports training platform'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'created admin panel and add payment options'
             },
             {
-                text: 'Risus eu metus'
+                text: 'Laravel, html, css, javascript'
             },
         ],
         positon: 'left'
     },
     {
         id: 4,
-        time: 'Q3 2022',
+        time: 'March 2022',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Translator'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Get text from an image or pdf.'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'Translator text one language to another language.'
             },
             {
-                text: 'Risus eu metus'
+                text: 'Python, php, html, css and javascript'
             },
         ],
         positon: 'right'
     },
     {
         id: 5,
-        time: 'Q2 2022',
+        time: 'feb 2022',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Fortofino - silverlines'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'Ecommerce Website for jewelry '
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'created dynamic sections'
             },
             {
-                text: 'Risus eu metus'
+                text: 'django, html, css and javascript'
             },
         ],
         positon: 'left'
     },
     {
         id: 6,
-        time: 'Q1 2022',
+        time: 'Nov 2021',
         list: [
             {
-                text: 'Aenean tempor'
+                text: 'Thomas Mathew'
             },
             {
-                text: 'Fusce arcu maecenas'
+                text: 'personal portfolio website'
             },
             {
-                text: 'Malesuada felis sem elementum'
+                text: 'Dr. Thomas Mathew is a retired IAS officer, author, corporate strategist, defence analyst, and photographer.'
             },
             {
-                text: 'Risus eu metus'
+                text: 'php, html, css and javascript'
             },
         ],
         positon: 'right'
-    },
-    {
-        id: 7,
-        time: 'Q4 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 8,
-        time: 'Q3 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
-    {
-        id: 9,
-        time: 'Q2 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'left'
-    },
-    {
-        id: 10,
-        time: 'Q1 2022',
-        list: [
-            {
-                text: 'Aenean tempor'
-            },
-            {
-                text: 'Fusce arcu maecenas'
-            },
-            {
-                text: 'Malesuada felis sem elementum'
-            },
-            {
-                text: 'Risus eu metus'
-            },
-        ],
-        positon: 'right'
-    },
+    }
 ]
 
 export default dataRoadmap;
