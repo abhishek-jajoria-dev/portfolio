@@ -30,7 +30,7 @@ yarn-error.log*
 *.pyc
 __pycache__
 db.sqlite3
-media
+react/build/static/media
 
 # Backup files #
 *.bak
