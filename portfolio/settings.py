@@ -126,10 +126,16 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'react/build/static'),
-]
+"""
+! for run command collectstatic
+! set STATICFILES_DIRS path to react/build/static
+! uncomment STATIC_ROOT
+"""
 
+STATICFILES_DIRS = [
+    # os.path.join(BASE_DIR, 'react/build/static'),
+    os.path.join(BASE_DIR, 'static'),
+]
 # STATICFILES_DIRS = [str(BASE_DIR / "static/"),]
 
-STATIC_ROOT = str(BASE_DIR / "static")
+# STATIC_ROOT = str(BASE_DIR / "static")
