@@ -12,9 +12,9 @@ function Work(props) {
     const {data} = props;
 
     const [dataBlock] = useState({
-        subtitle: 'How we work',
-        title: 'BECOME OUR MEMBER',
-        desc: 'Maecenas sit pretium, cras in. In quisque sem id eget. In vel gravida ut adipiscing integer felis.'
+        subtitle: 'services',
+        title: 'WHAT WE DO',
+        desc: 'We provide clients with stunning Crafty web solutions, developed with skill & passion.'
     })
     return (
         <section className="tf-section how-we-work">

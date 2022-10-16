@@ -20,7 +20,7 @@ function Team(props) {
         subtitle: 'Our team',
         title: 'Meet our TEAM',
         desc: 'Who we are',
-        text: 'Purus, laoreet dui augue ut euismod. Elementum ante sociis volutpat tellus enim, nisl consectetur mauris. Venenatis congue id quis eget viverra. Vestibulum, justo, euismod congue feugiat eget fames gravida posuere.'
+        text: 'we work to make a better web, one that is fast, easy to use, beautiful, accessible to all, and frustration-free. Regardless of your specific business requirements, in solving these challenges, you have a great chance of finding success online.'
     })
     return (
         <section className="tf-section tf-team">

@@ -24,6 +24,11 @@
                 font-size: 14px;
             }
         }
+        .header__logo h5{
+            @include mobile {
+                font-size: 28px;
+            }
+        }
     }
     .main-nav {
         position: absolute;

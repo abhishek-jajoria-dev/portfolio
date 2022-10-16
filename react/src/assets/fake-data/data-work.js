@@ -1,28 +1,60 @@
 const dataWork = [
+    // {
+    //     id: 1,
+    //     numb: '01',
+    //     title: 'Website Audits',
+    //     text : 'Looking to improve your page performance, SEO, or user experience? Request a free site audit.',
+    //     active: 'active'
+    // },
+    // {
+    //     id: 1,
+    //     numb: '01',
+    //     title: 'Design + Development',
+    //     text : 'Clean, modern designs - optimized for performance and converting users to customers.',
+    //     active: 'active'
+    // },
+    // {
+    //     id: 2,
+    //     numb: '02',
+    //     title: "eCommerce",
+    //     text : 'Integration of eCommerce platforms, payment gateways, custom product templates, and more.'
+    // },
+    // {
+    //     id: 3,
+    //     numb: '03',
+    //     title: "Analytics",
+    //     text : 'Get insights into who is browsing your site so that you can make smarter business decisions.'
+    // },
+    // {
+    //     id: 4,
+    //     numb: '04',
+    //     title: "Mobile-friendly",
+    //     text : 'A responsive design makes your website accessible to all users, regardless of their device.'
+    // },
     {
         id: 1,
         numb: '01',
-        title: 'Set up your wallet',
-        text : 'Arcu morbi sit laoreet semper ultrices maecenas auctor amet. Donec tortor facilisis risus, neque sit aliquet orci, malesuada.',
+        title: 'Craft CMS',
+        text : 'We are focused on developing, from start to finish, web solutions with Craft CMS, an easy to use content management system where admins can alter or add content to a website.',
         active: 'active'
     },
     {
         id: 2,
         numb: '02',
-        title: 'Buy your collection',
-        text : 'Arcu morbi sit laoreet semper ultrices maecenas auctor amet. Donec tortor facilisis risus, neque sit aliquet orci, malesuada.'
+        title: "Fast Support",
+        text : 'We aim to be as available and supportive as we can to our clients. Feel free to use the form below or contact us directly with questions or requests.'
     },
     {
         id: 3,
         numb: '03',
-        title: "Add your NFT's",
-        text : 'Arcu morbi sit laoreet semper ultrices maecenas auctor amet. Donec tortor facilisis risus, neque sit aliquet orci, malesuada.'
+        title: "Custom designs",
+        text : 'Our design team is skilled at customizing existing designs, as well as producing stunning, award-winning brand-new designs.'
     },
     {
         id: 4,
         numb: '04',
-        title: "Sell Your NFT's",
-        text : 'Arcu morbi sit laoreet semper ultrices maecenas auctor amet. Donec tortor facilisis risus, neque sit aliquet orci, malesuada.'
+        title: "SEO",
+        text : 'Using our expertise along with handy tools we strive for a high SEO score, ensuring higher visibility on search sites such as Google.'
     },
 ]
 export default dataWork;

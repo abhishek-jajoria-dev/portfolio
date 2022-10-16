@@ -15,7 +15,7 @@ function ProjectItem(props) {
         <div className="img-box">
             <img src={item.img} alt="crybox" />
             <div className="content">
-                <Link to="/nft-item">{item.title}</Link>
+                <Link to="">{item.title}</Link>
             </div>
         </div>
     );
