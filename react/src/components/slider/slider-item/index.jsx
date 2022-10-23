@@ -47,7 +47,7 @@ function SliderItem(props) {
                 </div>
             </div>
 
-            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="YaEG2aWJnZ8" onClose={() => setOpen(false)} />
+            <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="lIaGs-bWxEk" onClose={() => setOpen(false)} />
 
             {/* <Modal
                 show={modalShow}

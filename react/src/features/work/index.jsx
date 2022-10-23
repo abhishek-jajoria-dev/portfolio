@@ -13,7 +13,7 @@ function Work(props) {
 
     const [dataBlock] = useState({
         subtitle: 'services',
-        title: 'WHAT WE DO',
+        title: 'WHAT I DO',
         desc: 'We provide clients with stunning Crafty web solutions, developed with skill & passion.'
     })
     return (

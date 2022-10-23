@@ -35,26 +35,26 @@ const dataWork = [
         id: 1,
         numb: '01',
         title: 'Craft CMS',
-        text : 'We are focused on developing, from start to finish, web solutions with Craft CMS, an easy to use content management system where admins can alter or add content to a website.',
+        text : 'I am focused on developing, from start to finish, web solutions with Craft CMS, an easy-to-use content management system where admins can alter or add content to a website.',
         active: 'active'
     },
     {
         id: 2,
         numb: '02',
         title: "Fast Support",
-        text : 'We aim to be as available and supportive as we can to our clients. Feel free to use the form below or contact us directly with questions or requests.'
+        text : 'I aim to be as available and supportive as I can to our clients. Feel free to use the form or contact us directly with questions or requests.'
     },
     {
         id: 3,
         numb: '03',
         title: "Custom designs",
-        text : 'Our design team is skilled at customizing existing designs, as well as producing stunning, award-winning brand-new designs.'
+        text : 'I am skilled at customizing existing designs, as well as producing stunning, award-winning brand-new designs.'
     },
     {
         id: 4,
         numb: '04',
         title: "SEO",
-        text : 'Using our expertise along with handy tools we strive for a high SEO score, ensuring higher visibility on search sites such as Google.'
+        text : 'With my expertise along with handy tools I strive for a high SEO score, ensuring higher visibility on search sites such as Google.'
     },
 ]
 export default dataWork;
